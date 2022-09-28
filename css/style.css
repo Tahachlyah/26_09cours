@@ -4,4 +4,19 @@ h1{
 
 .red
 {color: red;}
-em{ color: blue; }
+em{ color: blue; }*
+.text-center
+{text-align: center; color: yellow; }
+a{ color: rgb(119, 29, 29);}
+
+/* important permet de prendre en priorité le truc a cote */
+a:visited
+{
+   color: rgb(128, 0, 79) !important; 
+   color: aqua;
+}
+a:hover {
+    background: orange; color: black; back
+}
+.text:hover
+{ color: blue ;}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>contacter moi</h1>
+    <!--j'insère un formulaire-->
+    <!--action va checher une page logique de programmation afin d'echanger 
+        avec le back tandis que l'attribut methode nous permet soit de
+        récupérer des informations avec get, soit en envoyer avec post-->
+    <form action="../forms/send.php" methode = "post">
+
+   
+    <label for="name">veuillez entrer votre nom
+    </label>
+     <input type="text"name="name"id="name">
+     <label for="name">veuillez entrer votre email
+    </label>
+    <input type="email"name="email"id="email"required> 
+<!--on envoie les données du formulaire -->
+<button type="submit" value="Envoyer">
+    </form>
+    <!--lien vers la page d'acceuil-->
+    <a href=""></a>
+</body>
+</html>
