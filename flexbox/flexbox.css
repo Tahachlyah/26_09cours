@@ -1,0 +1,72 @@
+section div{ 
+    /*largeur*/
+    width:200px;
+    /*hauteur*/
+    height:200px;
+    /*bordures*/
+    border: 10px solid black;
+    /*marge*/
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(5,0,0,0.36);
+    box-shadow: rgb(85, 91, 14);
+
+
+
+}
+
+
+div:first-of-type
+{background:red;
+}
+div:nth-child(2)
+{background: green;}
+
+div:nth-child(3)
+{background: yellow;}
+p{color: red;text-align: center;}
+
+/*applique flexbox*/
+section {
+    display: flex;
+    /*flex-direction: column*/;
+}
+/*je crer des helpers*/
+.flex {
+    display: flex;
+}
+/**/
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between { justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+.text-center{ text-align: center; font-size: xxx-large;}
+
+.column-reverce {
+    flex-direction: column-reverse 
+}
+.speparation {
+
+    height: 50px;
+    background-color: black;
+}
+.stretch {
+    align-items: stretch;
+}
+.container
+{
+padding:5px;
+background: yellow;
+height: 600px;
+}
