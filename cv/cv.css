@@ -1,0 +1,25 @@
+header {
+background: blue; text-align: center; height: 100px;
+}
+
+.flex {
+    display:flex ; flex-direction: row;
+}
+.photo
+{
+    border: 3px solid black; border-radius: 250px 250px 250px 250px;
+    box-shadow: 3px 3px 0px rgb(90, 89, 89);;
+}
+
+div:first-of-type
+{width: 30%;
+} 
+
+div:nth-child(2)
+{background: green; 
+    width: 70%; text-align: center;
+    }
+
+ul.listesoftskills
+    {text-align: center;  list-style-type:none;
+        }
