@@ -2,24 +2,127 @@ header {
 background: blue; text-align: center; height: 100px;
 }
 
-.flex {
-    display:flex ; flex-direction: row;
-}
 .photo
 {
-    border: 3px solid black; border-radius: 250px 250px 250px 250px;
+    border: 3px solid black; border-radius: 250px;
     box-shadow: 3px 3px 0px rgb(90, 89, 89);;
 }
 
-div:first-of-type
+
+.flex-bus {
+    display:flex ; flex-direction: row;
+}
+
+div.sec1:first-of-type
 {width: 30%;
 } 
 
-div:nth-child(2)
-{background: green; 
+div.sec1:nth-child(2)
+{
     width: 70%; text-align: center;
     }
+h2,h3 { text-align: center;}
 
-ul.listesoftskills
-    {text-align: center;  list-style-type:none;
+/*#softskills{ display: flex;  ;}*/
+
+body{
+    background-color: rgb(126, 78, 78); color: white;
+
+}
+
+.flex {display: flex; flex-direction: row; justify-content: space-between; 
+
+}
+
+footer{ background-color: rgba(216, 19, 19, 0.30);
+ }
+
+/*.flox 
+    {flex-direction: row;}
+
+div.flox:first-of-type{ background: red; width: 50px ; color: aqua; }
+div.flox-sec:nth-of-type(2){
+    background: red; width: 250px;}*/
+
+    /*body{
+        background-image: url("Photo_TahaCHLYAH.jpeg");
+        background-position: center center;
+        background-size: 100px;
+        background-repeat: repeat-y repeat-x;
+    }*/
+
+    
+    @keyframes monAnimation {
+        0% {
+            color: #337AB7;
         }
+
+        25%{
+            color: #d94fab;
+        }
+        50% {
+            color: #D9534F; 
+        }
+        75%{color: bisque;
+
+        }
+        100% {
+            color: #5CB85C;
+        }
+     }
+
+     .monLien {
+        animation-name: monAnimation;
+        animation-duration: 10s ;
+        animation-iteration-count: infinite;
+     }
+     .monLien{ 
+        display: flex; flex-direction: column;
+     }
+
+     .monLien .skill:first-child{
+    align-self:flex-start; border: 2px solid black;
+     }
+     .monLien .skill:nth-child(2){
+    align-self:center;  
+    border: 2px solid black;
+    }
+    .monLien .skill:nth-child(3){
+    align-self:flex-end;
+    border: 2px solid black;
+             }
+    .monLien .skill:nth-child(4){
+    align-self: flex-start;
+    border: 2px solid black;
+                         }       
+   
+    .skew, .rotate{
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+        background: #337AB7;
+        color: black;
+        padding: 15px;
+    }
+    .rotate{
+        transform: rotate(20deg);
+    }
+    .skew{
+        transform: skew(20deg);
+    }
+    .img-container{
+        display: flex; justify-content: center;
+    }
+
+    .img-container div.polaroid{
+        width: 260px;
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid black;
+    }
+    div.rotate_right{
+        transform: rotate(7deg);
+    }
+    div.rotate_left{
+        transform: rotate(-7deg);
+    }

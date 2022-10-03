@@ -23,3 +23,22 @@ a:hover {
 
 .blue
 { color: blue}
+
+p::first-line{ color: red;
+
+}
+p::before{content:"";border: 3px solid red; 
+    position: relative;
+     left: -20px;
+
+}
+
+p::after{content:"";
+    border: 3px solid black; 
+    position: relative;
+     left: 20px;
+
+}
+div.pseudoelement{
+    text-align: center;
+}

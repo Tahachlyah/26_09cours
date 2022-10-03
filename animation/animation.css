@@ -36,7 +36,7 @@ form input:focus{ border: 5px dotted green; background: yellow;
 {
 background-color: blueviolet;
 }
-/*quand je ne suis pas focus j'applique l'attribut de invalide*/
+/*quand je ne suis pas focus j'applique l'attribut de invalide, quand je sors du champs */
 
 form input:not(:focus):invalid 
 {
@@ -64,7 +64,7 @@ form input:not(:focus):invalid
     transform: scale(1);
     transition: 1s;
 }
-
+/* hover sur btn */
 .btn2:hover + .balle{
     transform: scale(1.25);
     transform:400ms;
@@ -96,9 +96,11 @@ form input:not(:focus):invalid
     background: chartreuse;
     height: 30px;
     transform:scaleX(0);
+     /* transform origin fonctionne avec deux valeurs */
     transform-origin: 0 50%;
 }
 .btn3:active + .progres > .barre-progres {
     transform: scaleX(1);
     transition:3000ms ;
+    ;
 }

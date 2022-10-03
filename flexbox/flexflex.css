@@ -1,0 +1,20 @@
+.d-flex{
+    display: flex; 
+    margin: 20px;
+    background-color: #bdc3c7;
+    border: 1px solid red;
+    color: white;
+}
+body{
+    background-color: #7f8c8d;
+}
+h2
+{ color: white;
+}
+.innner-elem {
+    border: 1px solid red;
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+}
+.justify-content
