@@ -1,0 +1,107 @@
+.flex_header{
+    display: flex; justify-content: space-between;
+}
+
+.flex-header{ 
+    border: 2px solid blue; justify-content: center;
+}
+
+/* modifier les liens  */
+a{
+    text-decoration: none; color: black;
+}
+nav > a:hover{
+    color: blue ;border-top: 2px solid blue
+}
+a:nth-child(1){padding: 5px; 
+    }
+a:nth-child(2){padding: 5px;
+    }
+a:nth-child(3){padding: 5px;
+   }
+/* section introduction */
+div > p:nth-child(2) { font-size: smaller; color: gray;}
+
+.bouttonrechercher { color: white; background-color: blue;
+}
+
+.flex_hebergement {
+    display: flex; justify-content: space-around;
+}
+
+.hebmars{ background-color: #F2F2F2; border-radius: 15px;
+     
+}
+
+.hebpluspop_element{  
+    background-color: #F2F2F2; 
+    border-radius: 15px;
+}
+
+.hebmars_element{  
+    width: 100%; display: flex; 
+    justify-content: space-around; 
+}
+
+.hebmars_element1,.hebmars_element2, .hebmars_element3 {
+    border: 2px solid white;
+     border-radius: 25px;
+      margin: 25px;
+       background-color: white;
+
+}
+
+
+ .hebmars_element img { border: 2px solid white; border-radius: 25px 25px 0px 0px
+
+}
+
+.hebpluspop_element1,.hebpluspop_element2, .hebpluspop_element3 {
+    border: 5px solid white;
+     border-radius: 25px;
+      margin: 25px;
+      height: 137px;
+      background-color: white;
+
+}
+
+.hebpluspop_element img { 
+    border: 5px solid white; 
+    border-radius: 25px 0px 0px 25px; 
+    float: left;
+
+}
+
+.flex-activitemars { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+
+
+}
+
+.activitemars_element1,.activitemars_element2,.activitemars_element3,.activitemars_element4, .activitemars_element5, .activitemars_element6 { 
+    border: 2px solid #F2F2F2; 
+    border-radius: 25px;
+     padding-bottom: 15px ;
+     margin-bottom: 10px;
+     box-shadow: 2px 2px 2px 1px #F2F2F2;
+     
+}
+
+.flex-activitemars img { 
+ border-radius: 25px 25px 0px 0px ;
+}
+
+
+.flex_footer { display: flex; justify-content: space-between ;background-color: #F2F2F2;
+
+}
+.fa-solid{ color: blue;}
+.grey { color: gray;}
+
+ul
+{ 
+    list-style-type: none
+} 
+
