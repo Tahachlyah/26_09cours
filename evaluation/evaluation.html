@@ -7,6 +7,7 @@
     <title>Reservia</title>
     <link rel="stylesheet" href="evaluation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
 <body>
 
@@ -22,27 +23,50 @@
 
 <section class="intro">
     <div >
-        <p>Trouver votre hébergement pour des vacances de reve </p>
-        <p>En plein centre ville ou en plaine nature</p>
+        <p>Trouver votre hébergement pour des vacances de reve <br> <em class="gris"> Plein centre ville ou en plaine nature</em> </p>
     </div>
+    
+<!--  
+    <div class="form"> <form action=""> <i class="fa-sharp fa-solid fa-location-dot"></i> 
+        <label for="marseille" name=""></label> <input type="text" id="marseille" placeholder="marseille"> 
+        <input type="submit" id= "submit" value="Rechercher"> </form> 
+    </div>
+-->
+
     <div class="recherche">
-        <i class="fa-solid fa-location-dot"></i>
-    <input type=""> 
-    <button class= bouttonrechercher type="button">Rechercher</button>
+        <form action="">
+      <i class="fa-solid fa-location-dot"></i>
+    <input type="text" placeholder="Marseille, France"> 
+    <button class= "bouttonrechercher" type="button">Rechercher</button>
+</form>
      </div>
-    <div class="filtres">Filtres
-        <i class="fa-solid fa-money-bill-wave"></i><a href="">Economique</a> 
-        <i class="fa-solid fa-family-pants"></i> <a href="">Familiale</a>
-        <i class="fa-solid fa-heart"></i><a href="">Romantique</a>
-        <i class="fa-solid fa-dog"></i><a href="">Animaux autorisés</a><i class="fa-duotone fa-family-pants"></i>
+<div>
+    <p> <i class="fa-solid fa-info"></i> Plus de 500 logements disponibles dans cette ville</p>
+</div>
+  <!--  
+<div class="search-container">
+    <form action="/action_page.php">
+        <i class="fa-solid fa-location-dot"></i>
+      <input type="text" placeholder="Marseille, France" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+-->
+    <div class="filtres">
+        <div id="filtre">Filtres</div>
+        <div class="filtres_element"><i class="fa-solid fa-money-bill-wave"></i><a href="">Economique</a> </div>
+        <div class="filtres_element"><i class="fa-solid fa-house"></i><a href="">Familiale</a></div>
+        <div class="filtres_element"><i class="fa-solid fa-heart"></i><a href="">Romantique</a></div>
+        <div class="filtres_element"><i class="fa-solid fa-dog"></i><a href="">Animaux autorisés</a></div>
     </div>
+    
 </section>   
 <!-- modifier hebergement à ... en fct de la ville  -->
 
 <section class="flex_hebergement">
 
     <div class="hebmars">
-        <h1 id="h1hebmars">hebergement à marseille</h1>  
+        <h1 id="h1hebmars">Hébergement à Marseille</h1>  
 
             <div class="hebmars_element">
                 <div class="hebmars_element1">

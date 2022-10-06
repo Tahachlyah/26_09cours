@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+}
+
+.direction > div {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 2em;
+}
+
+.direction > div:last-child{
+    background: green;
+}
+.direction{
+    display: flex;
+}
+/* responsive design */
+/*  
+@media screen and (max-width: 768px) {
+    .direction > div {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        margin: 2em;
+    }
+.direction {
+    flex-direction: column;
+}    
+}*/
+
+@media screen and (min-width: 768px) and (max-width:996px) 
+ {
+    .direction{ flex-direction: column-reverse;
+        background-color: blueviolet;
+
+    }
+    .direction > div:first-child{
+        background-color: black;
+    }
+    
+}
