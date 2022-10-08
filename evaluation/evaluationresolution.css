@@ -1,0 +1,24 @@
+ .flex_header{
+    display: flex; flex-wrap: wrap;
+} 
+.filtres{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+*{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+.hebmars_element1,.hebmars_element2, .hebmars_element3{
+    display: flex;
+    flex-direction: column;
+}
+
+.hebmars_element img 
+ {
+    width: 100%; 
+ 
+}
