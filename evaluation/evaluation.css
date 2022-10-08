@@ -154,8 +154,6 @@ a:nth-child(3){padding: 5px;
      
 }
 
-
-
 .hebmars_element{  
      display: flex; 
     
@@ -172,12 +170,13 @@ a:nth-child(3){padding: 5px;
 
  .hebmars_element img 
  {
-    border-radius: 25px 25px 0px 0px
+    border-radius: 25px 25px 0px 0px;
      width:200px; 
       height:120px; 
-    width: 100%;
+   
 }
 
+/* -----------les plus populaires------------------------- */
 .hebpluspop_element{  
     background-color: #F2F2F2; 
     border-radius: 15px;
@@ -190,23 +189,28 @@ a:nth-child(3){padding: 5px;
       height: 137px;
       background-color: white;
       padding: 4px;
-
+     display: flex;
+     flex-direction: row;
 }
 
 .hebpluspop_element img { 
   
     border-radius: 25px 0px 0px 25px; 
-    float: left;
-
+    /* float: left; */
+   
+    width:128px;
+     height:137px;
+     
+    
 }
 
+/* ----------------activités marseille------------- */
 .flex-activitemars { 
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
-
-
 }
+
 
 .activitemars_element1,.activitemars_element2,.activitemars_element3,.activitemars_element4, .activitemars_element5, .activitemars_element6 { 
     border: 2px solid #F2F2F2; 
@@ -214,17 +218,28 @@ a:nth-child(3){padding: 5px;
      padding-bottom: 15px ;
      margin-bottom: 10px;
      box-shadow: 2px 2px 2px 1px #F2F2F2;
-     
+      display: flex;
+     flex-direction: column; 
+   
 }
 
 .flex-activitemars img { 
  border-radius: 25px 25px 0px 0px ;
+ 
+ 
+ 
+ 
 }
 
-
-.flex_footer { display: flex; justify-content: space-between ;background-color: #F2F2F2;
-
+/* ----------------footer------------------- */
+.flex_footer { 
+    display: flex; 
+    justify-content: space-between ;
+    background-color: #F2F2F2;
+    width: 100%;
+   
 }
+
 .fa-solid{ color: blue;}
 .grey { color: gray;}
 
